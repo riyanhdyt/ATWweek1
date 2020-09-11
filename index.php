@@ -19,3 +19,25 @@ echo " Bisa terbang: $Anjing->bisa_terbang";
 echo "<br>";
 echo " Suara: $Anjing->suara";
 echo "<hr>";
+
+
+class Kucing{
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
+
+}
+
+$Kucing = new Kucing;
+$Kucing->nama = "Oneng";
+$Kucing->jumlah_kaki = "4";
+$Kucing->bisa_terbang = "tidak";
+$Kucing->suara = "meaww";
+
+echo "Kucing <br>";
+echo " Nama: $Kucing->nama";
+echo "<br>";
+echo " Jumlah kaki: $Kucing->jumlah_kaki";
+echo "<br>";
+echo " Bisa terbang: $Kucing->bisa_terbang";
+echo "<br>";
+echo " Suara: $Kucing->suara";
+echo "<hr>"; 
